@@ -11,9 +11,9 @@ describe('2-first-last', () => {
 
   it('Should only return the first item if the array only has one item', () => {
     expect(firstLast(['bob'])).toEqual('Only item: bob')
-  }) //... och här tappade jag tråden XD
+  }) //working
 
   it('Should return "No items!" if the array is empty', () => {
     expect(firstLast([])).toEqual('No items!')
-  })
+  }) //working
 })
